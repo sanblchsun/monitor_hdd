@@ -1,0 +1,5 @@
+[smtp]
+server = something.ru:25
+passwd = password
+from = something@something.ru
+to_addrs = something1@something1.ru

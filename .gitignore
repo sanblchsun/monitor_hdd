@@ -1,0 +1,7 @@
+venv/
+*.ini
+.env
+test.py
+mail/__pycache__/
+*.pyc
+.idea/
