@@ -16,8 +16,8 @@ def step_send_mail():
                                                    firma=config.firma,
                                                    full_name=config.full_name,
                                                    priority=config.priority,
-                                                   description=f"{config.description}: {round(config.min_free_memory/134217728,9)} Гбайт,"
-                                                               f" сейчас: {round(hdd_free/134217728,9)} Гбайт")
+                                                   description=f"{config.description}: {round(config.min_free_memory/10737418240,9)} Гбайт,"
+                                                               f" сейчас: {round(hdd_free/10737418240,9)} Гбайт")
             except Exception as e:
                 pass
         if hdd_free > config.min_free_memory:
