@@ -6,3 +6,4 @@ mail/__pycache__/
 *.pyc
 .idea/
 *.log
+config/config.py
