@@ -5,3 +5,4 @@ test.py
 mail/__pycache__/
 *.pyc
 .idea/
+*.log
