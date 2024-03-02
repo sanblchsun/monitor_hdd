@@ -34,8 +34,8 @@ def step_send_mail():
                                                    firma=config.firma,
                                                    full_name=config.full_name,
                                                    priority=config.priority,
-                                                   description=f"{config.description}: {round(config.min_free_memory/10737418240,9)} Гбайт,"
-                                                               f" сейчас: {round(hdd_free/10737418240,9)} Гбайт")
+                                                   description=f"{config.description}: {round(config.min_free_memory/1073741824)} Гбайт,"
+                                                               f" сейчас: {round(hdd_free/1073741824)} Гбайт")
                 logging.info("Было отправлено сообщение")
             except Exception as e:
                 logging.info(f"Ошибка почтовой службы; {e}")
